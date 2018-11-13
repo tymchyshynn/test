@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="129b38b9-6a00-4552-82f9-a933aacc5b84" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ua/org/autotest/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/org/autotest/FirstTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,8 +39,8 @@
       <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ua/org/autotest/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="82" column="168" lean-forward="true" selection-start-line="82" selection-start-column="168" selection-end-line="82" selection-end-column="168" />
+            <state relative-caret-position="94">
+              <caret line="40" column="70" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1536#1552#0" expanded="true" />
@@ -333,21 +332,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest_useLogin - 2018.09.27 at 18h 12m 09s.xml">
-      <configuration name="FirstTest.useLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_useLogin - 2018.09.27 at 18h 17m 42s.xml">
-      <configuration name="FirstTest.useLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_useLogin - 2018.09.27 at 18h 19m 41s.xml">
-      <configuration name="FirstTest.useLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_useLogin - 2018.11.08 at 19h 45m 02s.xml">
-      <configuration name="FirstTest.useLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_useLogin - 2018.11.13 at 17h 17m 38s.xml">
-      <configuration name="FirstTest.useLogin" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FirstTest_useLogin - 2018.11.13 at 17h 18m 41s.xml">
       <configuration name="FirstTest.useLogin" configurationId="JUnit" />
     </history-entry>
@@ -361,6 +345,21 @@
       <configuration name="FirstTest.useLogin" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FirstTest_useLogin - 2018.11.13 at 18h 57m 19s.xml">
+      <configuration name="FirstTest.useLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_useLogin - 2018.11.13 at 18h 57m 50s.xml">
+      <configuration name="FirstTest.useLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_useLogin - 2018.11.13 at 19h 21m 16s.xml">
+      <configuration name="FirstTest.useLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_useLogin - 2018.11.13 at 19h 21m 53s.xml">
+      <configuration name="FirstTest.useLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_useLogin - 2018.11.13 at 19h 23m 30s.xml">
+      <configuration name="FirstTest.useLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_useLogin - 2018.11.13 at 19h 24m 25s.xml">
       <configuration name="FirstTest.useLogin" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -796,8 +795,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/org/autotest/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="82" column="168" lean-forward="true" selection-start-line="82" selection-start-column="168" selection-end-line="82" selection-end-column="168" />
+        <state relative-caret-position="94">
+          <caret line="40" column="70" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1536#1552#0" expanded="true" />

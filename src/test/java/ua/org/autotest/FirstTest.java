@@ -37,7 +37,9 @@ public class FirstTest {
         entryLink = $(By.xpath("//div[contains(text(), 'Увійти')]")) ,
         nameField = $(By.name("username")),
         passwordField = $(By.name("password")),
-        submitButtom = $(By.id("admin_submit"));
+        submitButtom = $(By.id("admin_submit")),
+        Categories = $(By.xpath("//div[contains(text(), 'Категорії')]"));
+
 
 
 
@@ -78,9 +80,15 @@ public class FirstTest {
         nameField.setValue("tymchyshynn@gmail.com");
         passwordField.sendKeys("1645av");
         submitButtom.click();
-        System.out.println("Page title is: " + driverChrome.getTitle());
 
+        System.out.println("Page title is: " + driverChrome.getTitle());
         Assert.assertEquals("kinobox.in.ua - Play and Win! Вигравай цінні сувеніри та квитки в кіно до кращих фільмів світового кінематографа!", driverChrome.getTitle());
+
+
+        Categories.click();
+        System.out.println("Page title is: " + driverChrome.getTitle());
+        Assert.assertNotNull( driverChrome.getTitle());
+        Assert.assertEquals("Категорії", driverChrome.getTitle());
 
        // System.out.println("Page title is: " + driverMozilla.getTitle());
 
