@@ -3,6 +3,7 @@ package ua.org.autotest;
 import com.codeborne.selenide.SelenideElement;
 import com.codeborne.selenide.WebDriverRunner;
 import org.junit.AfterClass;
+import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -78,6 +79,9 @@ public class FirstTest {
         passwordField.sendKeys("1645av");
         submitButtom.click();
         System.out.println("Page title is: " + driverChrome.getTitle());
+
+        Assert.assertEquals("kinobox.in.ua - Play and Win! Вигравай цінні сувеніри та квитки в кіно до кращих фільмів світового кінематографа!", driverChrome.getTitle());
+
        // System.out.println("Page title is: " + driverMozilla.getTitle());
 
 
